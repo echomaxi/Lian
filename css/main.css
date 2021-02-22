@@ -302,7 +302,8 @@ img {
 .team {
 	text-align: center;
 	font-family: 'Lato', sans-serif;
-	margin-bottom: 2em;
+	background-color: #fafafa;
+	padding-bottom: 3em;
 }
 
 .team__title {
