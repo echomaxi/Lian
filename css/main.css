@@ -292,12 +292,69 @@ img {
 	letter-spacing: 0.025em;
 }
 
-.team__persons-person {
-  flex: 1 1;
+.team {
+	text-align: center;
+	font-family: 'Lato', sans-serif;
+}
+
+.team__title {
+	font-size: 3.75rem;
+	line-height: 1.5em;
+	font-weight: 300;
+	text-transform: uppercase;
+	letter-spacing: 0.4em;
+	color: #000000;
+}
+
+.team__text{
+	max-width: 50%;
+	font-size: 0.875rem;
+	line-height: 1.875em;
+	font-weight: 400;
+	text-transform: none;
+	letter-spacing: 0.025em;
+	color: #777777;
+	margin: 0 auto;
+	margin-bottom: 3em;
+}
+
+.team__persons {
+	text-align: left;
 }
 
 .team__persons-person {
+  flex: 1 1;
+  align-self: flex-start;
+}
+
+.team__persons-person + .team__persons-person {
   margin-left: 1em;
+}
+
+.team__persons-person__name {
+	font-size: 1.5rem;
+	line-height: 1.5em;
+	font-weight: 300;
+	text-transform: uppercase;
+	letter-spacing: 0.04em;
+	color: #041608;
+}
+
+.team__persons-person__position {
+	font-size: 1rem;
+	line-height: 0.625em;
+	font-weight: 700;
+	text-transform: none;
+	letter-spacing: 0.025em;
+	color: #777777;
+}
+
+.team__persons-person__info {
+	font-size: 0.875rem;
+	font-weight: 400;
+	text-transform: none;
+	letter-spacing: normal;
+	color: #9c9c9c;
 }
 
 .selected {
