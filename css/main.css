@@ -292,6 +292,12 @@ img {
 	letter-spacing: 0.025em;
 }
 
+.story__skill {
+	display: flex;
+	justify-content: space-between;
+	border-bottom: 2px solid #a1a1a1;
+}
+
 .team {
 	text-align: center;
 	font-family: 'Lato', sans-serif;
@@ -338,6 +344,7 @@ img {
 	text-transform: uppercase;
 	letter-spacing: 0.04em;
 	color: #041608;
+	margin-bottom: 0;
 }
 
 .team__persons-person__position {
@@ -347,6 +354,7 @@ img {
 	text-transform: none;
 	letter-spacing: 0.025em;
 	color: #777777;
+	margin-top: 0;
 }
 
 .team__persons-person__info {
