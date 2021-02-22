@@ -254,6 +254,52 @@ img {
 	color: #000;
 }
 
+.story {
+	padding: 3em 0;
+}
+
+.story__wrapper,
+.team__persons {
+	display: flex;
+	justify-content: space-between;
+}
+
+.story__left {
+	flex: 1 1;
+	padding-right: 1em;
+}
+
+.story__right {
+	flex: 1 1;
+	padding-left: 1em;
+}
+
+.story__title {
+	font-family: 'Lato', sans-serif;
+	font-size: 1.125rem;
+	letter-spacing: 0.4em;
+	text-transform: uppercase;
+	font-weight: 300;
+	line-height: 1.5em;
+}
+
+.story__text {
+	font-family: 'Lato', sans-serif;
+	font-size: 0.875rem;
+	line-height: 1.875em;
+	color: #777;
+	font-weight: 400;
+	letter-spacing: 0.025em;
+}
+
+.team__persons-person {
+  flex: 1 1;
+}
+
+.team__persons-person {
+  margin-left: 1em;
+}
+
 .selected {
 	color: #000;
 }
