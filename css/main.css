@@ -255,7 +255,8 @@ img {
 }
 
 .story {
-	padding: 3em 0;
+	padding-top: 3em;
+	margin-bottom: 1em;
 }
 
 .story__wrapper,
@@ -301,6 +302,7 @@ img {
 .team {
 	text-align: center;
 	font-family: 'Lato', sans-serif;
+	margin-bottom: 2em;
 }
 
 .team__title {
@@ -310,6 +312,8 @@ img {
 	text-transform: uppercase;
 	letter-spacing: 0.4em;
 	color: #000000;
+	margin-top: 0;
+	
 }
 
 .team__text{
