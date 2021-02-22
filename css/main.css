@@ -89,6 +89,38 @@ img {
 	font-family: 'Lato', sans-serif;
 }
 
+.wrapper {
+	display: flex;
+	flex-direction: column;
+	justify-content: center;
+	align-items: center;
+}
+
+.hero-about {
+	background-image: url(../img/about_hero.png);
+	background-size: cover;
+	background-repeat: no-repeat;
+	padding: 7em 0;
+	text-transform: uppercase;
+}
+
+.hero-about__title {
+	letter-spacing: 0.1em;
+	font-weight: 300;
+	font-size: 3rem;
+	font-family: 'Lato', sans-serif;
+	background-color: #000;
+	color: #fff;
+	padding: 0 0.6em;
+}
+
+.hero-about__text {
+	letter-spacing: 0.4em;
+	font-size: 1.2rem;
+	font-family: 'Lato', sans-serif;
+}
+
+
 .galery {
 	padding-bottom: 2em;
 	background-color: #F2F2F2;
