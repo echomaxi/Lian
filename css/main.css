@@ -17,6 +17,17 @@ img {
 	padding: 1em;
 	max-width: 1200px;
 }
+.wrapper {
+	display: flex;
+	flex-direction: column;
+	justify-content: center;
+	align-items: center;
+}
+
+.flex-col {
+	display: flex;
+	flex-direction: column;
+}
 
 .row {
 	display: flex;
@@ -89,12 +100,6 @@ img {
 	font-family: 'Lato', sans-serif;
 }
 
-.wrapper {
-	display: flex;
-	flex-direction: column;
-	justify-content: center;
-	align-items: center;
-}
 
 .hero-about {
 	background-image: url(../img/about_hero.png);
@@ -368,6 +373,22 @@ img {
 	text-transform: none;
 	letter-spacing: normal;
 	color: #9c9c9c;
+}
+
+.hero-portfolio {
+	background-image: url(../img/potfrolio_bg.png);
+	background-size: cover;
+	background-repeat: no-repeat;
+	padding-top: 7em;
+	padding-bottom: 7em;
+	text-transform: uppercase;
+}
+
+.wrapper-portfolio {
+	display: flex;
+	flex-direction: column;
+	justify-content: flex-start;
+	align-items: flex-start;
 }
 
 .selected {
