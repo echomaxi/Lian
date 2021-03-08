@@ -5,10 +5,10 @@
 	<meta charset="UTF-8" />
 	<meta http-equiv="X-UA-Compatible" content="IE=edge" />
 	<meta name="viewport" content="width=device-width, initial-scale=1.0" />
-	<link rel="stylesheet" href="css/main.css" />
 	<link rel="preconnect" href="https://fonts.gstatic.com">
 	<link rel="stylesheet" href="css/all.css">
 	<link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Lato:wght@400;700&display=swap">
+	<link rel="stylesheet" href="css/main.css" />
 
 	<title>Lian website</title>
 	<script src="https://kit.fontawesome.com/2902a9f4fb.js" crossorigin="anonymous"></script>
@@ -16,10 +16,12 @@
 
 <body>
 	<header class="header">
-		<div class="container row">
-			<a href="index.html" class="logo"><img src="img/logo.png" alt="LIAN logo"></a>
+		<div class="container flex-r flex-jc-sb flex-ai-c">
+			<a href="index.html" class="logo">
+				<img src="img/logo.png" alt="LIAN logo">
+			</a>
 			<nav class="nav">
-				<ul class="nav__list">
+				<ul class="nav__list flex-r">
 					<li class="nav__item"><a href="index.html" class="nav__link selected">Home</a></li>
 					<li class="nav__item"><a href="about.html" class="nav__link">About</a></li>
 					<li class="nav__item"><a href="porfolio.html" class="nav__link">Porfolio</a></li>
@@ -39,7 +41,7 @@
 		</section>
 		<section class="galery">
 			<div class="container">
-				<ul class="galery__menu">
+				<ul class="galery__menu flex-r flex-jc-sa flex-ai-c">
 					<li class="galery__item"><a href="#" class="galery__link selected">All</a></li>
 					<li class="galery__item"><a href="#" class="galery__link">Logo</a></li>
 					<li class="galery__item"><a href="#" class="galery__link">Mobile app</a></li>
@@ -48,31 +50,33 @@
 					<li class="galery__item"><a href="#" class="galery__link">UI/UX</a></li>
 					<li class="galery__item"><a href="#" class="galery__link">Branding</a></li>
 				</ul>
-				<div class="galery__puctures">
-					<div class="galery__puctures-col">
+				<div class="galery__puctures flex-r flex-jc-sb">
+					<div class="galery__puctures-col flex-c">
 						<img src="img/main_1.png" alt="1" class="galery__puctures-item">
 						<img src="img/main_2.png" alt="2" class="galery__puctures-item">
 						<img src="img/main_3.png" alt="3" class="galery__puctures-item">
 					</div>
-					<div class="galery__puctures-col">
+					<div class="galery__puctures-col flex-c">
 						<img src="img/main_4.png" alt="4" class="galery__puctures-item">
 						<img src="img/main_5.png" alt="5" class="galery__puctures-item">
 						<img src="img/main_6.png" alt="6" class="galery__puctures-item">
 						<img src="img/main_7.png" alt="7" class="galery__puctures-item">
 					</div>
-					<div class="galery__puctures-col">
+					<div class="galery__puctures-col flex-c">
 						<img src="img/main_8.png" alt="8" class="galery__puctures-item">
 						<img src="img/main_9.png" alt="9" class="galery__puctures-item">
 						<img src="img/main_10.png" alt="10" class="galery__puctures-item">
 					</div>
 				</div>
-				<div class="galery__button"><a href="#" class="galery__button-link">Load More</a></div>
+				<div class="galery__button flex-r flex-jc-c flex-ai-c"><a href="#" class="galery__button-link">Load More</a></div>
 			</div>
 		</section>
-		<secion class="social">
+	</main>
+	<footer class="footer">
+		<secion class="social flex-c flex-jc-c flex-ai-c">
 			<div class="cosial__logo"><img src="img/logo.png"></div>
 			<div class="social__list">
-				<ul class="social__list-items">
+				<ul class="social__list-items flex-r flex-jc-c flex-ai-c">
 					<li class="social__item"><a href="#" class="social__link"><i class="fab fa-facebook-f"></i></a></li>
 					<li class="social__item"><a href="#" class="social__link"><i class="fab fa-google-plus-g"></i></a></li>
 					<li class="social__item"><a href="#" class="social__link"><i class="fab fa-twitter"></i></a></li>
@@ -83,9 +87,7 @@
 				</ul>
 			</div>
 		</secion>
-	</main>
-	<footer class="footer">
-		<div class="footer__msg">
+		<div class="footer__msg flex-r flex-jc-c flex-ai-c">
 			<p class="footer__text">2021 <span class="footer__text--main">Militix Theme</span> by themeforces. All rights reserved.</p>
 		</div>
 	</footer>

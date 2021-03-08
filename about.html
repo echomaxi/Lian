@@ -16,10 +16,10 @@
 
 <body>
 	<header class="header">
-		<div class="container row">
+		<div class="container flex-r flex-jc-sb flex-ai-c">
 			<a href="index.html" class="logo"><img src="img/logo.png" alt="LIAN logo"></a>
 			<nav class="nav">
-				<ul class="nav__list">
+				<ul class="nav__list flex-r">
 					<li class="nav__item"><a href="index.html" class="nav__link">Home</a></li>
 					<li class="nav__item"><a href="about.html" class="nav__link selected">About</a></li>
 					<li class="nav__item"><a href="porfolio.html" class="nav__link">Porfolio</a></li>
@@ -32,7 +32,7 @@
 	</header>
 	<main>
 		<section class="hero-about">
-			<div class="wrapper">
+			<div class="container flex-c flex-jc-fs flex-ai-fs">
 				<h1 class="hero-about__title">About the agency</h1>
 				<p class="hero-about__text">Welcome to lian</p>
 			</div>
@@ -49,7 +49,7 @@
 						<p class="story__text">Lorem, ipsum dolor sit amet consectetur adipisicing elit. Ipsum ea ad sint quasi temporibus, accusamus reiciendis, animi sapiente facilis sunt voluptatem. </p>
 						<h3 class="story__title">Our skills</h3>
 						<div class="story__skills">
-							<div class="story__skill">
+							<div class="story__skill flex-r flex-jc-sb">
 								<p class="story__text story__text--skills">Photoshop</p>
 								<p>90%</p>
 							</div>
@@ -98,10 +98,12 @@
 				</div>
 			</div>
 		</section>
-		<secion class="social">
+	</main>
+	<footer class="footer">
+		<secion class="social flex-c flex-jc-c flex-ai-c">
 			<div class="cosial__logo"><img src="img/logo.png"></div>
 			<div class="social__list">
-				<ul class="social__list-items">
+				<ul class="social__list-items flex-r flex-jc-c flex-ai-c">
 					<li class="social__item"><a href="#" class="social__link"><i class="fab fa-facebook-f"></i></a></li>
 					<li class="social__item"><a href="#" class="social__link"><i class="fab fa-google-plus-g"></i></a></li>
 					<li class="social__item"><a href="#" class="social__link"><i class="fab fa-twitter"></i></a></li>
@@ -112,9 +114,7 @@
 				</ul>
 			</div>
 		</secion>
-	</main>
-	<footer class="footer">
-		<div class="footer__msg">
+		<div class="footer__msg flex-r flex-jc-c flex-ai-c">
 			<p class="footer__text">2021 <span class="footer__text--main">Militix Theme</span> by themeforces. All rights reserved.</p>
 		</div>
 	</footer>
