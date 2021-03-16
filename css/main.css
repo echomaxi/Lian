@@ -63,23 +63,6 @@ main {
   background-color: #fafafa;
 }
 
-.row {
-  display: flex;
-
-  align-items: center;
-  justify-content: space-between;
-  flex-wrap: wrap;
-}
-
-.col {
-  display: flex;
-  flex-direction: column;
-
-  align-items: center;
-  justify-content: center;
-  flex-wrap: wrap;
-}
-
 /*------------------------------------*\
   HEADER
 \*------------------------------------*/
@@ -392,11 +375,30 @@ main {
   text-transform: uppercase;
 }
 
-.wrapper-portfolio {
-  display: flex;
-  flex-direction: column;
-  justify-content: flex-start;
-  align-items: flex-start;
+/*------------------------------------*\
+  BLOG
+\*------------------------------------*/
+
+.hero-blog {
+  background-image: url(/img/blog_hero_bg.png);
+  background-size: cover;
+  background-repeat: no-repeat;
+  padding-top: 7em;
+  padding-bottom: 7em;
+  text-transform: uppercase;
+}
+
+.blog-posts {
+  margin-top: 2em;
+}
+
+.blog-posts__col {
+  flex: 1 1;
+}
+
+.blog-posts__col + .blog-posts__col {
+  margin-left: 1em;
+  }
 }
 
 /*------------------------------------*\
