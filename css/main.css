@@ -10,12 +10,20 @@ html {
   padding: 0;
 }
 
-body { 
+body {
   font-family: "Lato", sans-serif;
+  /* background-image: url(/img/body.png);
+  background-repeat: repeat; */
 }
 
 img {
   width: 100%;
+}
+
+li {
+  list-style-type: none;
+  margin-left: 0;
+  padding-left: 0;
 }
 
 .container {
@@ -170,11 +178,10 @@ img {
 
 .galery__puctures-item {
   margin-bottom: 1em;
-
 }
 
 .galery__button {
- margin-top: 2em;
+  margin-top: 2em;
 }
 
 .galery__button-link {
@@ -283,7 +290,7 @@ img {
   letter-spacing: 0.025em;
 }
 
-.story__text + .story__text  {
+.story__text + .story__text {
   margin-top: 1em;
 }
 
@@ -391,6 +398,7 @@ img {
 
 .blog-posts {
   margin-top: 2em;
+  font-family: "Roboto", sans-serif;
 }
 
 .blog-posts__col {
@@ -399,13 +407,19 @@ img {
 
 .blog-posts__col + .blog-posts__col {
   margin-left: 1em;
-  }
+}
 
 .blog-post {
   background-color: #fff;
   margin-bottom: 1em;
-  outline: 1px solid blue;
-  padding: 1em;
+}
+
+.blog-post--bg {
+  background-image: url(../img/tea_bag.png);
+}
+
+.block-post__wrap {
+  padding: 2.625em;
 }
 
 .blog-post__header-btn {
@@ -421,11 +435,15 @@ img {
 
 .blog-post__title {
   margin-bottom: 0.5em;
+  font-size: 1.25rem;
+  line-height: 1.185em;
+  font-weight: 700;
+  color: #333;
 }
 
 .blog-post__author {
   color: #ccc;
-  margin-bottom: 0.5em;
+  margin-bottom: 1.5em;
 }
 
 .blog-post__info {
@@ -433,11 +451,19 @@ img {
   font-size: 0.875rem;
   font-weight: 400;
   line-height: 1.5em;
-  margin-bottom: 0.5em;
+  margin-bottom: 1.5em;
 }
 
 .blog-post__date {
   color: #9a9a9a;
+}
+
+.social__link {
+  color: #ccc;
+}
+
+.social__link + .social__link {
+  margin-left: 1em;
 }
 
 /*------------------------------------*\
