@@ -414,10 +414,6 @@ li {
   margin-bottom: 1em;
 }
 
-.blog-post--bg {
-  background-image: url(../img/tea_bag.png);
-}
-
 .block-post__wrap {
   padding: 2.625em;
 }
@@ -465,6 +461,48 @@ li {
 .social__link + .social__link {
   margin-left: 1em;
 }
+
+.blog-post--bg {
+  background-image: url(../img/tea_bag.png);
+  background-size: cover;
+}
+
+.hidden > .blog-post__title {
+  color: #fff;
+}
+
+.hidden > .blog-post__author {
+  color: #ccc;
+}
+
+.hidden > .blog-post__info {
+  color: #e5e5e5;
+}
+
+.hidden > .blog-post__date {
+  color: #a1a1a1;
+}
+
+.hidden > .social__link {
+  color: #c0c0c0;
+}
+
+.hidden {
+  visibility: hidden;
+}
+
+.blog-post--bg:hover {
+  box-shadow: inset 0 0 0 1000px rgba(0, 0, 0, 0.75);
+}
+
+.blog-post--bg:hover .hidden {
+  visibility: visible;
+}
+
+/* .transparent-layer {
+  background-color: rgba(0, 0, 0, 0.85);
+  color: #000;
+} */
 
 /*------------------------------------*\
   FOOTER
