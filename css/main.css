@@ -387,8 +387,12 @@ li {
   BLOG
 \*------------------------------------*/
 
+.blog-padding {
+  padding: 2em 1.5em;
+}
+
 .hero-blog {
-  background-image: url(/img/blog_hero_bg.png);
+  background-image: url(../img/blog_hero_bg.png);
   background-size: cover;
   background-repeat: no-repeat;
   padding-top: 7em;
@@ -533,24 +537,85 @@ li {
   background-color: #999999;
 }
 
+.recent-post__title {
+  background-color: #ebebeb;
+  color: #000;
+  font-family: "Roboto", sans-serif;
+  font-size: 1.125rem;
+  font-weight: 300;
+  letter-spacing: 0.4em;
+  text-transform: uppercase;
+  text-align: center;
+  padding: 0.5em 0;
+}
+
 .recent-posts {
   display: flex;
-  flex-wrap: wrap;
-  justify-content: space-between;
+  flex-direction: row;
+  justify-content: flex-start;
   align-items: center;
+  margin-bottom: 1em;
 }
 
-.recent-posts--info {
+.recent-posts__img {
+  margin-right: 1em;
 }
 
-/* .transparent-layer {
-  background-color: rgba(0, 0, 0, 0.85);
-  color: #000;
-} */
+.recent-posts__text {
+  font-family: "Roboto", sans-serif;
+  font-size: 1rem;
+  line-height: 1.25em;
+  font-weight: 500;
+  color: #3d3d3d;
+}
 
-/*------------------------------------*\
-  FOOTER
-\*------------------------------------*/
+.recent-posts__date {
+  font-family: "Roboto", sans-serif;
+  font-size: 0.8125rem;
+  line-height: 1.125em;
+  font-weight: 300;
+  color: #777777;
+  margin-top: 0.5em;
+}
+
+.pop-tags {
+  display: flex;
+  justify-content: flex-start;
+  flex-wrap: wrap;
+}
+
+.pop-tag {
+  font-family: "Roboto", sans-serif;
+  border: 1px solid #eeeeee;
+  padding: 0.5em 1em;
+  font-size: 0.8125rem;
+  line-height: 1.5em;
+  font-weight: 400;
+  color: #9c9c9c;
+  margin-right: 0.5em;
+  margin-bottom: 0.5em;
+}
+
+.instagram__img-body {
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+}
+
+.instagram__row {
+  display: flex;
+  flex-direction: row;
+}
+
+.instagram__image {
+  padding: 0.1em;
+}
+
+.blog-post {
+  outline: 1px solid #eeeeee;
+}
+
+/*-----------FOOTER--------------*/
 .footer {
   padding: 0.5em 0 3em;
 }
@@ -573,9 +638,7 @@ li {
   color: #000;
 }
 
-/*------------------------------------*\
-  MEDIA QUERIES
-\*------------------------------------*/
+/*----------MEDIA QUERIES--------------*/
 @media screen and (max-width: 768px) {
   .row {
     display: flex;
