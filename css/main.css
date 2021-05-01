@@ -35,12 +35,10 @@ li {
 .flex-c {
   display: flex;
   flex-direction: column;
-  flex-wrap: wrap;
 }
 
 .flex-r {
   display: flex;
-  flex-wrap: wrap;
 }
 
 .flex-jc-sb {
@@ -613,6 +611,36 @@ li {
 
 .blog-post {
   outline: 1px solid #eeeeee;
+}
+
+/*--------- CONTACT--------- */
+
+.contact-info {
+  padding: 5em 0;
+}
+
+.office-info__title {
+  font-family: "Roboto", sans-serif;
+  font-size: 2.185rem;
+  line-height: 1.5em;
+  font-weight: 300;
+  text-transform: uppercase;
+  letter-spacing: 0.4em;
+  color: #000000;
+}
+
+.office-info__text {
+  font-size: 1.2rem;
+  line-height: 1.185em;
+  text-transform: none;
+  letter-spacing: 0.025em;
+  color: #2f302f;
+}
+
+.we,
+.vision,
+.mission {
+  flex: 1 1 auto;
 }
 
 /*-----------FOOTER--------------*/
