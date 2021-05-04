@@ -55,26 +55,30 @@
         </div>
       </section>
       <section class="office-info">
-        <div class="container flex-r flex-jc-sb flex-ai-c">
-          <div class="contact-info">
+        <div class="container form-wrapper">
+          <div class="contact-info left">
             <div class="contact-info__top">
               <h2 class="office-info__title">Office Info</h2>
               <p class="office-info__text">People Behind the Success of out Company</p>
             </div>
             <div class="contact-info__bottom">
-              <p>Office Hours: <span>Mon-Friday 8am - 10pm</span></p>
-              <p>Address: <span> Igbalangao, Bugasong, Antique</span></p>
-              <p>Tell: <span>123-456-7890</span></p>
-              <p>Fax: <span>123-456-7890</span></p>
+              <p class="hours">Office Hours: <span class="hours__text">Mon-Friday 8am - 10pm</span></p>
+              <p class="address">Address: <span class="address__text"> Igbalangao, Bugasong, Antique</span></p>
+              <p class="tel">Tell: <span class="tel__text"> 123-456-7890</span></p>
+              <p class="fax">Fax: <span class="fax__text"> 123-456-7890</span></p>
             </div>
           </div>
-          <div class="office-form">
-            <form action="" class="">
-              <input type="text" name="name" id="">
-              <input type="email" name="email" id="">
-              <textarea name="message" id="" cols="30" rows="10"></textarea>
-              <button type="submit">Send Message</button>
-            </form>
+          <div class="office-form right">
+              <form action="/action_page.php" class="right-form">
+                <div class="top-form">
+                  <input type="text" id="name" name="name" placeholder="Name" class="form-name">
+                  <input type="email" id="email" name="email" placeholder="Email" class="form-email">
+                </div>
+                <div class="bottom-form">
+                  <textarea id="subject" name="subject" placeholder="Message" class="bottom-form__textarea"></textarea>
+                </div>
+                <input type="submit" value="Send Message" class="send-btn">
+              </form>
           </div>
         </div>
       </section>
