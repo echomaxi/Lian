@@ -724,6 +724,75 @@ li {
   padding: 0.5em 1.5em;
   border-radius: 3px;
   text-transform: uppercase;
+  cursor: pointer;
+}
+
+.map {
+  background-image: url(/img/map.png);
+  background-size: cover;
+  padding: 5em;
+}
+
+.map-address {
+  display: inline-block;
+  color: #a1a1a1;
+  padding: 1em 3em;
+  background-color: #fff;
+  margin: 0 auto;
+}
+
+.us {
+  text-align: center;
+}
+
+.us__title {
+  font-family: "Roboto", sans-serif;
+  color: #000;
+  letter-spacing: 0.4em;
+  text-transform: uppercase;
+  font-weight: 300;
+  margin-bottom: 1.5em;
+  font-size: 1.5rem;
+}
+
+.us__text {
+  font-family: "Roboto", sans-serif;
+  color: #777;
+  font-weight: 400;
+  font-size: 0.875rem;
+  margin-bottom: 2em;
+  padding: 0 20%;
+  letter-spacing: 0.025em;
+  line-height: 1.875em;
+}
+
+.us-info {
+  align-items: stretch;
+}
+
+.us-info__card + .us-info__card {
+  margin-left: 1em;
+}
+
+.card__title {
+  font-family: "Roboto", sans-serif;
+  font-size: 1.125rem;
+  font-weight: 300;
+  text-transform: uppercase;
+  letter-spacing: 0.4em;
+  color: #000;
+  margin-bottom: 1.5em;
+  margin-top: 1em;
+}
+
+.card__text {
+  font-family: "Roboto", sans-serif;
+  text-transform: none;
+  font-size: 0.825rem;
+  font-weight: 400;
+  letter-spacing: 0.025em;
+  color: #777;
+  text-align: left;
 }
 
 /*-----------FOOTER--------------*/
