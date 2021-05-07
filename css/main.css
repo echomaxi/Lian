@@ -730,15 +730,38 @@ li {
 .map {
   background-image: url(/img/map.png);
   background-size: cover;
-  padding: 5em;
+  padding: 7em;
+  margin-bottom: 2em;
 }
 
 .map-address {
-  display: inline-block;
-  color: #a1a1a1;
+  display: block;
+  max-width: fit-content;
+  margin: 0 auto;
+}
+
+.map-address__wrap {
   padding: 1em 3em;
   background-color: #fff;
-  margin: 0 auto;
+}
+
+.address__title {
+  font-family: "Roboto", sans-serif;
+  font-size: 0.875rem;
+  line-height: 1.875em;
+  font-weight: 700;
+  text-transform: uppercase;
+  letter-spacing: 0.025em;
+  color: #041608;
+  margin-bottom: 0.5em;
+}
+
+.address__text {
+  color: #777;
+}
+
+.address__text + .address__text {
+  margin-top: 0.8em;
 }
 
 .us {
