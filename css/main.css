@@ -288,12 +288,48 @@ li {
   margin-top: 1em;
 }
 
-.story__skill {
-  border-bottom: 2px solid #a1a1a1;
+.story__text--skills {
+  font-size: 1rem;
+  color: #2f302f;
+  font-weight: 900;
+  margin-bottom: 0.8em;
 }
 
-.story__text--skills {
-  font-weight: bold;
+.story__skill--pb {
+  display: flex;
+  justify-content: space-between;
+  background-color: #ebebeb;
+  width: 100%;
+  height: 9px;
+  align-items: center;
+  margin-bottom: 1em;
+}
+
+.story__skill--progress {
+  background-color: #a0a0a0;
+  /* width: 90%; */
+  height: 3px;
+  align-self: center;
+}
+
+.story__skill--pecent {
+  font-size: 0.75rem;
+}
+
+.story__skill--progress-photoshop {
+  width: 90%;
+}
+
+.story__skill--progress-branding {
+  width: 95%;
+}
+
+.story__skill--progress-photography {
+  width: 50%;
+}
+
+.story__skill--progress-design {
+  width: 85%;
 }
 
 .team {
@@ -355,6 +391,7 @@ li {
   letter-spacing: 0.025em;
   color: #777777;
   margin-top: 0;
+  margin-bottom: 1em;
 }
 
 .team__persons-person__info {
@@ -583,6 +620,12 @@ li {
   color: #9c9c9c;
   margin-right: 0.5em;
   margin-bottom: 0.5em;
+  text-decoration: none;
+}
+
+.pop-tag:hover {
+  background-color: #333;
+  color: #eee;
 }
 
 .instagram__img-body {
