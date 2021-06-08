@@ -25,6 +25,10 @@ li {
   padding-left: 0;
 }
 
+a {
+  font-family: "Roboto", sans-serif;
+}
+
 .container {
   margin: 0 auto;
   max-width: 1200px;
@@ -53,6 +57,7 @@ li {
 
 .nav__link {
   color: #777;
+  font-size: 0.875rem;
   font-weight: 700;
   letter-spacing: 0.075em;
   text-decoration: none;
@@ -864,7 +869,7 @@ li {
 }
 
 .footer__text {
-  color: #bfbfbf;
+  color: #9c9c9c;
   font-weight: 300;
   margin: 0;
   text-align: center;
